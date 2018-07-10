@@ -4,9 +4,11 @@
 }
 
 body {
-  padding-top: 5em;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #444;
+  letter-spacing: 3px;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -17,4 +19,22 @@ h1 {
 a {
 	text-decoration: none;
 	color: cornflowerblue;
+}
+
+.img {
+  background-image: url(img/table4.jpg);
+  background-size: cover;
+  background-position: bottom;
+  filter: grayscale(70%);
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin: 1em;
+}
+
+.img:nth-of-type(2) {
+  background-image: url(img/table8.jpg);
+}
+.img:nth-of-type(3) {
+  background-image: url(img/table2.jpg);
 }
