@@ -17,7 +17,8 @@ h1 {
 }
 
 a {
-	text-decoration: none;
+  margin: 0 1em;
+  text-decoration: none;
 	color: cornflowerblue;
 }
 
@@ -25,7 +26,6 @@ a {
   background-image: url(img/table4.jpg);
   background-size: cover;
   background-position: bottom;
-  filter: grayscale(70%);
   height: 300px;
   width: 300px;
   display: inline-block;
